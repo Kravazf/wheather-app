@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.header h1 {
+  margin: 20px;
+  font-size: 3rem;
+}
+
+.app::before {
+  content: '';
+  background: url('./images/bg-beach.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.inp-field {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.inp-field input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: solid grey;
+  background: bisque;
+  color: #df5757;
+  max-width: 50%;
+}
+
+.inp-field input:focus {
+  border-color: #df5757;
+  outline: none;
+}
+
+.inp-field input:focus::placeholder {
+  color: transparent;
+}
+
+.container {
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 10px;
+  color: #fcfcfc;
+}
+
+.city p {
+  text-align: center;
+  font-style: oblique;
+  font-size: 3rem;
+}
+
+.temp h2 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.footer {
+  margin: 15vh auto;
+  background-color: rgba(255,255,255,0.5);
+  max-width: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #df5757;
+  font-size: 1.4rem;
+}
+
+.feels p .humidity p .wind p {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.error-message {
+  max-width: 90%;
+  margin-top: 15vh;
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 3rem;
+}
+
+.go {
+  margin-left: 8px;
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: solid grey;
+  background: bisque;
+  color: #8f8f8f;
+  cursor: pointer;
+}
+
+.go:hover {
+  font-weight: bold;
+  border: solid #df5757;
+  color: #df5757;
+}
