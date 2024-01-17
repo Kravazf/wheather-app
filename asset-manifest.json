@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wheather-app/static/css/main.91c318a2.css",
+    "main.js": "/wheather-app/static/js/main.4fa9130f.js",
+    "static/js/787.0e6c5c1c.chunk.js": "/wheather-app/static/js/787.0e6c5c1c.chunk.js",
+    "static/media/bg-beach.jpg": "/wheather-app/static/media/bg-beach.8d25cc8795c97d79ad46.jpg",
+    "index.html": "/wheather-app/index.html",
+    "main.91c318a2.css.map": "/wheather-app/static/css/main.91c318a2.css.map",
+    "main.4fa9130f.js.map": "/wheather-app/static/js/main.4fa9130f.js.map",
+    "787.0e6c5c1c.chunk.js.map": "/wheather-app/static/js/787.0e6c5c1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91c318a2.css",
+    "static/js/main.4fa9130f.js"
+  ]
+}
