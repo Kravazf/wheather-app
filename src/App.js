@@ -10,7 +10,8 @@ function App() {
   const defaultCity = 'Kyiv';
   const defaultUrl = `https://api.openweathermap.org/data/2.5/weather?q=${defaultCity}&units=metric&appid=${key}`;
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${town}&units=metric&appid=${key}`;
+  const encodedTown = encodeURIComponent(town.trim());
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodedTown}&units=metric&appid=${key}`;
 
   const searchWeather = (event) => {
     if ((event.type === 'keydown' && event.key === 'Enter') || event.type === 'click') {
